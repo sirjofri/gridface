@@ -1,0 +1,24 @@
+gridface
+
+
+This directory contains face(6) files for faces(1).  You can bind this
+directory to the location you want ($home/lib/face or /lib/face is
+preferred).
+
+USAGE INFORMATION
+
+TL;DR: Put your files in their directory and run mk.
+
+The general hierarchy is described by face(6).  You must name your
+face like your email address (user@example.com, so for example
+face/48x48x8/u/user@example.com).
+
+After that, navigate to the root face directory (the one with the
+mkfile) and run mk.  mk then extracts the filenames and builds working
+.dict files.
+
+BUGS AND NOT-SO-NICE THINGS
+
+If you find bugs or errors, or find ways to optimize and improve the
+mkfile, feel free to do it.  The files will be hosted at
+https://github.com/sirjofri/gridface, it's best to just put it there.
